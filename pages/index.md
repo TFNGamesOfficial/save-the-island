@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: sti
 title: Save The Island
 weight: 2
 permalink: /
