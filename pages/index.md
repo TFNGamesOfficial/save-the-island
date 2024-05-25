@@ -1,7 +1,7 @@
 ---
 layout: sti
-title: Save The Island
-weight: 2
+title: Overview
+weight: 0
 permalink: /
 ---
 
