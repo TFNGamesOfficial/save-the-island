@@ -285,7 +285,7 @@ nav a.dropdown-item:hover {
         <text href="#">Save The Island</text>
         <a href="#" class="active">OVERVIEW</a>
         <a href="/save-the-island/help" class="nav-link">HELP</a>
-	    <a class="nav-link" id="loggedInMessage" onclick="loginWithEpic()">      LOGIN      </a>
+	    <a class="nav-link" id="loggedInMessage" onclick="loginWithEpic()">LOGIN</a>
 	    <div class="left">
 	    <button style="background-color:rgb(39,39,39); color:#fff; border-color:#ffffff00;" onclick="logout()">Logout</button>
 	    </div>
