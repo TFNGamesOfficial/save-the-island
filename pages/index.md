@@ -2,7 +2,7 @@
 layout: default
 title: Save The Island
 weight: 2
-permalink: /save-the-island/
+permalink: /
 ---
 
 <html lang="en"><head>
@@ -280,7 +280,7 @@ nav a.dropdown-item:hover {
 </head>
 <body>
 
-    <!-- Custom Navbar -->
+    <!-- Custom Navbar
     <nav>
         <text href="#">Save The Island</text>
         <a href="#" class="active">OVERVIEW</a>
@@ -289,7 +289,7 @@ nav a.dropdown-item:hover {
 	    <div class="left">
 	    <button style="background-color:rgb(39,39,39); color:#fff; border-color:#ffffff00;" onclick="logout()">Logout</button>
 	    </div>
-    </nav>
+    </nav> -->
 
 
     <div class="rounded-picture">
