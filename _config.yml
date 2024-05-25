@@ -1,0 +1,92 @@
+### Site Settings ###
+title               : Save The Island
+description         : Welcome to TxEGames / DevGames! 
+                      Due to the recent problems with our domain provider, the shop remains closed!
+baseurl             : "/save-the-island/"                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+# repository          : TFNGamesOfficial/TFNGamesOfficial.github.io    Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+remote_theme        : DevniteCreative/Rhinestone
+
+open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
+
+
+### Plugins ###
+plugins:
+  - jemoji
+
+
+### Navbar Settings ###
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/404.html
+  - pages/tags.html
+  - pages/status.html
+  - pages/privacy policy.md
+  - pages/launchersp.md
+  - pages/support/launcherlds.md
+  - pages/support/errorcodes/TGLE-404-LF.md
+  - pages/docs.html
+  - pages/events/sti/login.htm
+  - pages/events/sti/test.html
+  - pages/privacy-policy.md
+
+### Author Info ###
+author:
+  name              : DevGames
+  image             : https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/HD_transparent_picture.png/1200px-HD_transparent_picture.png
+
+
+### Posts ###
+permalink: /news/:title
+
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /support/:name
+  docs:
+    output: true
+    permalink: /support/app/:name
+
+
+### Disqus ###
+disqus:
+  shortname: your-short-name-disqus                     # Your website Shortname on disqus
+
+
+### Analytics ###
+analytics:
+  enabled: false                                        # Set true to enable analytics
+  google:
+    tracking_id: your-google-tracking-id
+
+
+### Buy me a coffee ###
+# See https://www.buymeacoffee.com/
+buymeacoffee:
+  enabled: false
+  username: your_username
+  color: "#007bff"
+  message: "Thank you for visiting."                    # Message to be displayed aside from the button for a few seconds.
+  description: "Support me on Buy me a coffee!"
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false                                   # Set to true to enable disqus comments
+
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"
