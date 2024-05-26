@@ -92,7 +92,7 @@ permalink: /
     </script>
     <style>
         body {
-            background-color: #141414;
+            background-color: #141414 !important;
             color: #fff;
             font-family: Arial, sans-serif;
             margin: 0;
