@@ -315,7 +315,7 @@ nav a.dropdown-item:hover {
         </div>
 	<div class="rounded-box">
             <!-- <img src="https://cdn2.unrealengine.com/earn-rewards-120x120-ccb3638290e7.png"> -->
-            <h3>HAVE FUN</h3>
+            <h3>MORE FUN</h3>
             <roundtext>Complete additional "Fun Quests" in Battle Royale for additional xp.</roundtext>
         </div></div>
 </body></html>
