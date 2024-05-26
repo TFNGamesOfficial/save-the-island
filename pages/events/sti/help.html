@@ -137,7 +137,7 @@ form.addEventListener("submit", function (event) {
 
   const subject = form.elements.subject.value;
   const sender_name = form.elements.sender_name.value;
-  const message = form.elements.message.value;
+  const message = "Message by" + sender_name + ": " + form.elements.message.value;
   const sender_email = form.elements.sender_email.value;
   
   const data = {
