@@ -154,7 +154,7 @@ form.addEventListener("submit", function (event) {
  //   "x-cors-api-key": "temp_9206cde71da30d4a289d694d01ac277f"
   };
 
-  const url = 'https://corsproxy.io/?' + encodeURIComponent('https://dev.epicgames.com/portal/api/v1/services/tickets/submit/');
+  const url = 'https://corsproxy.io/?url=https://dev.epicgames.com/portal/api/v1/services/tickets/submit'
 
   fetch(url, {
     method: "POST",
