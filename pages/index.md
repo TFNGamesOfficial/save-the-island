@@ -12,10 +12,10 @@ permalink: /
     <link rel="stylesheet" href="https://tfngamesofficial.github.io/assets/css/navbar.css">
 	  <link rel="shortcut icon" type="image/x-icon" href="{{ '/assets/favicon.ico' | relative_url }}">
 	    <script>
-        function loginWithEpic() {
+       //  function loginWithEpic() {
             // Redirect the user to the Epic Games login page
-            window.location.href = `https://www.epicgames.com/id/authorize?client_id=xyza7891D9UWmFmhLv4Qyprz2w9AQiof&redirect_uri=${window.location.href}&response_type=code&scope=basic_profile`;
-        }
+      //      window.location.href = `https://www.epicgames.com/id/authorize?client_id=xyza7891D9UWmFmhLv4Qyprz2w9AQiof&redirect_uri=${window.location.href}&response_type=code&scope=basic_profile`;
+      //  }
 
         // Function to decode the JWT token and display the displayName
         function decodeToken(token) {
