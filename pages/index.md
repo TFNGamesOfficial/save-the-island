@@ -116,7 +116,7 @@ line-height: -45px;
   cursor: not-allowed;
 }
 
-	            /* Rounded Boxes Styles */
+	            /* Rounded Box Styles */
         .rounded-box-container {
 	    text-align: center;
             display: flex;
