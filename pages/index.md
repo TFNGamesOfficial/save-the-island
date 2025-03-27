@@ -225,7 +225,7 @@ nav a.dropdown-item:hover {
 <center><h4>Steps</h4></center>
 	<div class="rounded-box-container">
 	<div class="rounded-box">
-            <img src="https://cdn2.unrealengine.com/earn-rewards-120x120-ccb3638290e7.png">
+            <!-- img src="https://cdn2.unrealengine.com/earn-rewards-120x120-ccb3638290e7.png" -->
             <h3>JOIN</h3>
             <roundtext>Login with our Epic Games account and join the event.</roundtext>
         </div>
